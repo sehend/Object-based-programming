@@ -1,0 +1,5 @@
+c:\users\lab2\documents\visual studio 2015\Projects\Sehend\Sehend\bin\Debug\Sehend.exe.config
+c:\users\lab2\documents\visual studio 2015\Projects\Sehend\Sehend\bin\Debug\Sehend.exe
+c:\users\lab2\documents\visual studio 2015\Projects\Sehend\Sehend\bin\Debug\Sehend.pdb
+c:\users\lab2\documents\visual studio 2015\Projects\Sehend\Sehend\obj\Debug\Sehend.exe
+c:\users\lab2\documents\visual studio 2015\Projects\Sehend\Sehend\obj\Debug\Sehend.pdb

@@ -1,0 +1,6 @@
+c:\users\lab2\documents\visual studio 2015\Projects\Cansu\Cansu\bin\Debug\Cansu.exe.config
+c:\users\lab2\documents\visual studio 2015\Projects\Cansu\Cansu\bin\Debug\Cansu.exe
+c:\users\lab2\documents\visual studio 2015\Projects\Cansu\Cansu\bin\Debug\Cansu.pdb
+c:\users\lab2\documents\visual studio 2015\Projects\Cansu\Cansu\obj\Debug\Cansu.csprojResolveAssemblyReference.cache
+c:\users\lab2\documents\visual studio 2015\Projects\Cansu\Cansu\obj\Debug\Cansu.exe
+c:\users\lab2\documents\visual studio 2015\Projects\Cansu\Cansu\obj\Debug\Cansu.pdb

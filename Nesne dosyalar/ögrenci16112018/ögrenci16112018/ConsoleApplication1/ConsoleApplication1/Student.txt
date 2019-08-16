@@ -1,0 +1,41 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Student : Person, List
+    {
+        private UInt64 sNumber;
+    //    private string sube;
+
+        public ulong SNumber
+        {
+            get
+            {
+                return sNumber;
+            }
+
+            set
+            {
+                sNumber = value;
+            }
+        }
+
+
+     /*   public string Sube
+        {
+            get
+            {
+                return sube;
+            }
+
+            set
+            {
+                sube = value;
+            }
+        }*/
+    }
+}

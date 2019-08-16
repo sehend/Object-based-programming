@@ -1,0 +1,6 @@
+c:\users\lab2\documents\visual studio 2015\Projects\Ornek2\Ornek2\bin\Debug\Ornek2.exe.config
+c:\users\lab2\documents\visual studio 2015\Projects\Ornek2\Ornek2\obj\Debug\Ornek2.csprojResolveAssemblyReference.cache
+c:\users\lab2\documents\visual studio 2015\Projects\Ornek2\Ornek2\bin\Debug\Ornek2.exe
+c:\users\lab2\documents\visual studio 2015\Projects\Ornek2\Ornek2\bin\Debug\Ornek2.pdb
+c:\users\lab2\documents\visual studio 2015\Projects\Ornek2\Ornek2\obj\Debug\Ornek2.exe
+c:\users\lab2\documents\visual studio 2015\Projects\Ornek2\Ornek2\obj\Debug\Ornek2.pdb

@@ -1,0 +1,2 @@
+c:\users\lab2\documents\visual studio 2015\Projects\091120182\091120182\bin\Debug\091120182.exe.config
+E:\091120182\091120182\bin\Debug\091120182.exe.config

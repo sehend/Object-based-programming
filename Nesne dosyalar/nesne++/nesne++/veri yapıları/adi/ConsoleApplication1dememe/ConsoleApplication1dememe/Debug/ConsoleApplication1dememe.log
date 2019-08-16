@@ -1,0 +1,5 @@
+﻿  Source.c
+c:\users\7\desktop\adi\consoleapplication1dememe\consoleapplication1dememe\source.c(97): warning C4129: 'S': unrecognized character escape sequence
+c:\users\7\desktop\adi\consoleapplication1dememe\consoleapplication1dememe\source.c(103): warning C4129: 'B': unrecognized character escape sequence
+  ConsoleApplication1dememe.vcxproj -> C:\Users\7\Desktop\adi\ConsoleApplication1dememe\Debug\ConsoleApplication1dememe.exe
+  ConsoleApplication1dememe.vcxproj -> C:\Users\7\Desktop\adi\ConsoleApplication1dememe\Debug\ConsoleApplication1dememe.pdb (Full PDB)

@@ -1,0 +1,2 @@
+c:\users\170309008\documents\visual studio 2015\Projects\Uygulama\Uygulama\bin\Debug\Uygulama.exe.config
+c:\users\170309008\documents\visual studio 2015\Projects\Uygulama\Uygulama\obj\Debug\Uygulama.csprojResolveAssemblyReference.cache

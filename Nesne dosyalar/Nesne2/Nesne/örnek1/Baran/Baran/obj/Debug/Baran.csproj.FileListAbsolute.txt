@@ -1,0 +1,6 @@
+c:\users\lab2\documents\visual studio 2015\Projects\Baran\Baran\bin\Debug\Baran.exe.config
+c:\users\lab2\documents\visual studio 2015\Projects\Baran\Baran\bin\Debug\Baran.exe
+c:\users\lab2\documents\visual studio 2015\Projects\Baran\Baran\bin\Debug\Baran.pdb
+c:\users\lab2\documents\visual studio 2015\Projects\Baran\Baran\obj\Debug\Baran.csprojResolveAssemblyReference.cache
+c:\users\lab2\documents\visual studio 2015\Projects\Baran\Baran\obj\Debug\Baran.exe
+c:\users\lab2\documents\visual studio 2015\Projects\Baran\Baran\obj\Debug\Baran.pdb

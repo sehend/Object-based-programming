@@ -1,0 +1,8 @@
+﻿  Source.c
+c:\users\7\documents\visual studio 2015\projects\linkedlist2\linkedlist2\source.c(43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\7\documents\visual studio 2015\projects\linkedlist2\linkedlist2\source.c(62): warning C4047: '!=': 'int' differs in levels of indirection from 'char [1]'
+c:\users\7\documents\visual studio 2015\projects\linkedlist2\linkedlist2\source.c(103): warning C4047: 'function': 'ogrenci *' differs in levels of indirection from 'ogrenci **'
+c:\users\7\documents\visual studio 2015\projects\linkedlist2\linkedlist2\source.c(103): warning C4024: 'ogrenciekle': different types for formal and actual parameter 1
+c:\users\7\documents\visual studio 2015\projects\linkedlist2\linkedlist2\source.c(110): warning C4047: 'function': 'ogrenci *' differs in levels of indirection from 'ogrenci **'
+c:\users\7\documents\visual studio 2015\projects\linkedlist2\linkedlist2\source.c(110): warning C4024: 'ogrencigoster': different types for formal and actual parameter 1
+LINK : fatal error LNK1561: entry point must be defined

@@ -1,0 +1,137 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Game
+{
+    class Karakter
+    {
+        int yasam;
+        int enerji;
+        int level;
+        int guc;
+        int cevik;
+        int zeka;
+        int deneyim;
+        string ad;
+        string cins;
+
+        List<Envanter> envanter = new List<Envanter>();
+
+        public int Yasam
+        {
+            get
+            {
+                return yasam;
+            }
+
+            set
+            {
+                yasam = value;
+            }
+        }
+
+        public int Enerji
+        {
+            get
+            {
+                return enerji;
+            }
+
+            set
+            {
+                enerji = value;
+            }
+        }
+
+        public int Level
+        {
+            get
+            {
+                return level;
+            }
+
+            set
+            {
+                level = value;
+            }
+        }
+
+        public int Guc
+        {
+            get
+            {
+                return guc;
+            }
+
+            set
+            {
+                guc = value;
+            }
+        }
+
+        public int Cevik
+        {
+            get
+            {
+                return cevik;
+            }
+
+            set
+            {
+                cevik = value;
+            }
+        }
+
+        public int Zeka
+        {
+            get
+            {
+                return zeka;
+            }
+
+            set
+            {
+                zeka = value;
+            }
+        }
+
+        public string Ad
+        {
+            get
+            {
+                return ad;
+            }
+
+            set
+            {
+                ad = value;
+            }
+        }
+
+        public int Deneyim
+        {
+            get
+            {
+                return deneyim;
+            }
+
+            set
+            {
+                deneyim = value;
+            }
+        }
+
+        public void EnvEkle(Envanter e)
+        {
+            envanter.Add(e);
+        }
+
+        public void EnvCikar(Envanter e)
+        {
+            envanter.Remove(e);
+        }
+    }
+}

@@ -1,0 +1,2 @@
+c:\users\lab2\documents\visual studio 2015\Projects\Nesneler\Nesneler\bin\Debug\Nesneler.exe.config
+E:\Projects\Nesneler\Nesneler\bin\Debug\Nesneler.exe.config

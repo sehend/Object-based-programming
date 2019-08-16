@@ -1,0 +1,158 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int ogrencin = 0, ogretmenn = 0, yoneticin = 0;
+            Student[] ogrenci = new Student[20];
+            Teacher[] ogretmen = new Teacher[4];
+            Manager[] yonetici = new Manager[2];
+          //  Person bb = new Person();
+
+            byte secim;
+            baslangic:
+            Console.WriteLine("1.Öğrenci Kaydet");
+            Console.WriteLine("2.Öğretmen Kaydet");
+            Console.WriteLine("3.Yönetici Kaydet");
+            Console.WriteLine("4.Öğrenci Listele");
+            Console.WriteLine("5.Öğretmen Listele");
+            Console.WriteLine("6.Yönetici Listele");
+            Console.WriteLine("7.Sınıf Listele");
+            secim = Convert.ToByte(Console.ReadLine());
+            switch (secim)
+            {
+                case 1:
+                    ogrenci[ogrencin] = new Student();
+                    Console.WriteLine("Öğrencinin,");
+                    Console.Write("Adı :");
+                    ogrenci[ogrencin].Name = Console.ReadLine();
+                    Console.Write("Soyadı :");
+                    ogrenci[ogrencin].Surname = Console.ReadLine();
+                   // Console.Write("Şube :");
+                  //  ogrenci[ogrencin].Sube = Console.ReadLine();
+                    Console.Write("Okul Numarası:");
+                    ogrenci[ogrencin].SNumber = Convert.ToUInt64(Console.ReadLine());
+                    ogrencin++;
+                    goto baslangic;
+
+                    break;
+
+                case 2:
+                    ogretmen[ogretmenn] = new Teacher();
+                    Console.WriteLine("Öğretmenin,");
+                    Console.Write("Adı :");
+                    ogretmen[ogretmenn].Name = Console.ReadLine();
+                    Console.Write("Soyadı :");
+                    ogretmen[ogretmenn].Surname = Console.ReadLine();
+                    Console.Write("Şubesi (A,B,C,D) :");
+                    ogretmen[ogretmenn].Sube = Console.ReadLine();
+                    ogretmenn++;
+                    goto baslangic;
+                    break;
+                case 3:
+                    yonetici[yoneticin] = new Manager();
+                    Console.WriteLine("Yöneticinin,");
+                    Console.Write("Adı :");
+                    yonetici[yoneticin].Name = Console.ReadLine();
+                    Console.Write("Soyadı :");
+                    yonetici[yoneticin].Surname = Console.ReadLine();
+                    Console.Write("Pozisyon (Müdür/MüdürYdr) :");
+                    yonetici[yoneticin].Pozisyon = Console.ReadLine();
+                    yoneticin++;
+                    goto baslangic;
+                    break;
+                case 4:
+                    Console.WriteLine("\n...Öğrenciler...");
+                    for (int i = 0; i < ogrencin; i++)
+                    {
+                     //   if (ogrenci[i].Name != null) { }
+                    //   ogrenci[i] = new Student();
+                           
+                        Console.WriteLine((i+1)+".Öğrenci");
+                            Console.WriteLine("Öğrenci numarası :" + ogrenci[i].SNumber);
+                       // Console.WriteLine("Şubesi :"+ ogrenci[i].Sube);
+                        Console.WriteLine("Adı :"+ ogrenci[i].Name);
+                        Console.WriteLine("Soyadı :"+ ogrenci[i].Surname+"\n");
+                        
+                    }
+                    goto baslangic;
+                    break;
+                case 5:
+                    Console.WriteLine("\n...Öğretmenler...");
+                    for (int i = 0; i < ogretmenn; i++)
+                    {
+                        //   if (ogrenci[i].Name != null) { }
+                        //   ogrenci[i] = new Student();
+
+                        Console.WriteLine((i + 1) + ".Öğretmen");
+                       // Console.WriteLine("Öğrenci numarası :" + ogrenci[i].SNumber);
+                        Console.WriteLine("Adı :" + ogretmen[i].Name);
+                        Console.WriteLine("Soyadı :" + ogretmen[i].Surname );
+                        Console.WriteLine("Şubesi :" + ogretmen[i].Sube + "\n");
+
+                    }
+                    break;
+                case 6:
+                    Console.WriteLine("\n...Yöneticiler...");
+                    for (int i = 0; i < yoneticin; i++)
+                    {
+                        //   if (ogrenci[i].Name != null) { }
+                        //   ogrenci[i] = new Student();
+
+                        Console.WriteLine((i + 1) + ".Yönetici");
+                        Console.WriteLine("Adı :" + yonetici[i].Name);
+                        Console.WriteLine("Soyadı :" + yonetici[i].Surname );
+                        Console.WriteLine("Pozisyon :" + yonetici[i].Pozisyon + "\n");
+
+
+                    }
+                    break;
+                case 7:
+                   /* Console.WriteLine("\n...Sınıflar...");
+                    for (int i = 0; i < 4; i++){
+                        if (ogretmen[i].Sube == "A" || ogretmen[i].Sube == "a")
+                        {
+                            Console.WriteLine((i + 1) + ".Öğretmen");
+                            // Console.WriteLine("Öğrenci numarası :" + ogrenci[i].SNumber);
+                            Console.WriteLine("Adı :" + ogretmen[i].Name);
+                            Console.WriteLine("Soyadı :" + ogretmen[i].Surname);
+                        }
+
+                        }
+                    
+                        
+                        Console.WriteLine("\n...Öğrenciler...");
+                        for (int j = 0; j < ogrencin; j++)
+                        {
+                            //   if (ogrenci[i].Name != null) { }
+                            //   ogrenci[i] = new Student();
+                            if(ogrenci[j].Sube=="A"|| ogrenci[j].Sube == "a")
+                            {
+
+                            
+                            Console.WriteLine((j + 1) + ".Öğrenci");
+                            Console.WriteLine("Öğrenci numarası :" + ogrenci[j].SNumber);
+                         //   Console.WriteLine("Şubesi :" + ogrenci[i].Sube);
+                            Console.WriteLine("Adı :" + ogrenci[j].Name);
+                            Console.WriteLine("Soyadı :" + ogrenci[j].Surname + "\n");}
+
+                        }
+                       */
+
+                    
+                    break;
+                
+            }
+
+            Console.ReadKey();
+
+        }
+    }
+}

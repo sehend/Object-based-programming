@@ -1,0 +1,17 @@
+﻿  Source.c
+c:\users\7\documents\visual studio 2015\projects\uugf\uugf\source.c(28): warning C4101: 'i': unreferenced local variable
+c:\users\7\documents\visual studio 2015\projects\uugf\uugf\source.c(28): warning C4101: 't': unreferenced local variable
+c:\users\7\documents\visual studio 2015\projects\uugf\uugf\source.c(172): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\7\documents\visual studio 2015\projects\uugf\uugf\source.c(212): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\7\documents\visual studio 2015\projects\uugf\uugf\source.c(217): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\7\documents\visual studio 2015\projects\uugf\uugf\source.c(222): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\7\documents\visual studio 2015\projects\uugf\uugf\source.c(227): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\7\documents\visual studio 2015\projects\uugf\uugf\source.c(244): warning C4047: '!=': 'int' differs in levels of indirection from 'char [1]'
+c:\users\7\documents\visual studio 2015\projects\uugf\uugf\source.c(458): warning C4047: 'function': 'ogrenci *' differs in levels of indirection from 'ogrenci **'
+c:\users\7\documents\visual studio 2015\projects\uugf\uugf\source.c(458): warning C4024: 'ogrenciekle': different types for formal and actual parameter 1
+c:\users\7\documents\visual studio 2015\projects\uugf\uugf\source.c(482): warning C4047: 'function': 'ogrenci *' differs in levels of indirection from 'ogrenci **'
+c:\users\7\documents\visual studio 2015\projects\uugf\uugf\source.c(482): warning C4024: 'kayitsil': different types for formal and actual parameter 1
+c:\users\7\documents\visual studio 2015\projects\uugf\uugf\source.c(488): warning C4047: 'function': 'ogrenci *' differs in levels of indirection from 'ogrenci **'
+c:\users\7\documents\visual studio 2015\projects\uugf\uugf\source.c(488): warning C4024: 'ogrenciduzenle': different types for formal and actual parameter 1
+  uugf.vcxproj -> c:\users\7\documents\visual studio 2015\Projects\uugf\Debug\uugf.exe
+  uugf.vcxproj -> c:\users\7\documents\visual studio 2015\Projects\uugf\Debug\uugf.pdb (Partial PDB)

@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\7\desktop\adi\llist\llist\source.cpp(45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  LList.vcxproj -> C:\Users\7\Desktop\adi\LList\Debug\LList.exe
+  LList.vcxproj -> C:\Users\7\Desktop\adi\LList\Debug\LList.pdb (Full PDB)

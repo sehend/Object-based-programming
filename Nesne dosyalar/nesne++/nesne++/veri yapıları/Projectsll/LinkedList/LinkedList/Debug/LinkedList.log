@@ -1,0 +1,15 @@
+﻿  Source2.c
+c:\users\7\documents\visual studio 2015\projects\linkedlist\linkedlist\source2.c(27): warning C4101: 'i': unreferenced local variable
+c:\users\7\documents\visual studio 2015\projects\linkedlist\linkedlist\source2.c(27): warning C4101: 't': unreferenced local variable
+c:\users\7\documents\visual studio 2015\projects\linkedlist\linkedlist\source2.c(169): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\7\documents\visual studio 2015\projects\linkedlist\linkedlist\source2.c(209): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\7\documents\visual studio 2015\projects\linkedlist\linkedlist\source2.c(214): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\7\documents\visual studio 2015\projects\linkedlist\linkedlist\source2.c(219): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\7\documents\visual studio 2015\projects\linkedlist\linkedlist\source2.c(224): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\7\documents\visual studio 2015\projects\linkedlist\linkedlist\source2.c(241): warning C4047: '!=': 'int' differs in levels of indirection from 'char [1]'
+c:\users\7\documents\visual studio 2015\projects\linkedlist\linkedlist\source2.c(476): warning C4047: 'function': 'ogrenci *' differs in levels of indirection from 'ogrenci (*)[3]'
+c:\users\7\documents\visual studio 2015\projects\linkedlist\linkedlist\source2.c(476): warning C4024: 'kayitsil': different types for formal and actual parameter 1
+c:\users\7\documents\visual studio 2015\projects\linkedlist\linkedlist\source2.c(482): warning C4047: 'function': 'ogrenci *' differs in levels of indirection from 'ogrenci (*)[3]'
+c:\users\7\documents\visual studio 2015\projects\linkedlist\linkedlist\source2.c(482): warning C4024: 'ogrenciduzenle': different types for formal and actual parameter 1
+Source2.obj : error LNK2005: _main already defined in Example.obj
+c:\users\7\documents\visual studio 2015\Projects\LinkedList\Debug\LinkedList.exe : fatal error LNK1169: one or more multiply defined symbols found
